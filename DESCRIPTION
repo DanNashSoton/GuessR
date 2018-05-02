@@ -1,0 +1,16 @@
+Package: GuessR
+Type: Package
+Title: Simulating Guess Scores on Customizable Tests
+Version: 0.0.0.9008
+Authors@R: person("Danie", "Nash", email = "dn3g14@soton.ac.uk", role = c("aut", "cre"))
+Maintainer: Daniel Nash <dn3g14@soton.ac.uk>
+Description: The package allows users to create a custom test, being able to
+    create tests with a desired amount of multiple choice questions with varying
+    amounts of possible answers and marks available for each question. The user
+    is then able to run a number of simulations of a person randomly guessing at
+    the test, and produce various summary statistics and graphs from the results.
+Depends: R (>= 3.4.2)
+License: CC0
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 6.0.1

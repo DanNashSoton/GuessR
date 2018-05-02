@@ -35,4 +35,5 @@ create_mc <- function(ans, qus = length(ans), wts = rep(1,qus), ats = rep(1,qus)
   test <- data.frame(Answers = rep(1,qus),PossAnswers = ans,Weights = wts,Attempts = ats)
   
   test
+  
 }

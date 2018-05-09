@@ -4,9 +4,9 @@
 #' @return The mean score
 #'
 #' @examples
-#' mean_result(result1)
+#' mean.result(result1)
 #' @export
-mean_result <- function(result){
+mean.result <- function(result){
   columns <- ncol(result$Score)
   ts <- ncol(result$Score)
   qs <- nrow(result$Score)
@@ -19,9 +19,9 @@ mean_result <- function(result){
 #' @param result The result object
 #' @return The median score
 #' @examples
-#' median_result(result1)
+#' median.result(result1)
 #' @export
-median_result <- function(result){
+median.result <- function(result){
   coltotal <- c()
   ts <- ncol(result$Score)
   qs <- nrow(result$Score)
@@ -36,9 +36,9 @@ median_result <- function(result){
 #' @param result The result object
 #' @return The mode score
 #' @examples
-#' mode_result(result1)
+#' mode.result(result1)
 #' @export
-mode_result <- function(result){
+mode.result <- function(result){
   coltotal <- c()
   ts <- ncol(result$Score)
   qs <- nrow(result$Score)
@@ -56,9 +56,9 @@ mode_result <- function(result){
 #' @param result the result object
 #' @return A table showing percentage frequencies for each score
 #' @examples
-#' table_result(result1)
+#' table.result(result1)
 #' @export
-table_result <-  function(result){
+table.result <-  function(result){
   coltotal <- c()
   ts <- ncol(result$Score)
   qs <- nrow(result$Score)
@@ -78,9 +78,9 @@ table_result <-  function(result){
 #' @param result The result object
 #' @return The variance of the scores
 #' @examples
-#' var_result(result1)
+#' var.result(result1)
 #' @export
-var_result <- function(result){
+var.result <- function(result){
   coltotal <- c()
   ts <- ncol(result$Score)
   qs <- nrow(result$Score)

@@ -58,7 +58,8 @@ add_tf <- function(test, qus, wts = rep(1,qus), ats = rep(1,qus)) {
 #' @export
 add_maq <- function(test, ans,qus,cor = rep(1,qus),wts = rep(1,qus),ats = rep(1,qus)) {
   
-  quiz <- rep(1,qus)
+  quiz <- rep(cor,qus)
+  
   if(length(ans) == 1) ans <- rep(ans,qus)
   
   test <- rbind(test,data.frame(Answers = quiz,PossAnswers = ans,Weights = wts),Attempts = ats)

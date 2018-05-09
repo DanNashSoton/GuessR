@@ -3,6 +3,7 @@
 S3method(mean,result)
 S3method(median,result)
 S3method(plot,result)
+export(add_maq)
 export(add_mc)
 export(add_tf)
 export(below_percentage)

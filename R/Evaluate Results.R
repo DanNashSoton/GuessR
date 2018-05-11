@@ -1,3 +1,9 @@
+
+variance <- function (x, ...) {
+  UseMethod("variance", x)
+}
+
+
 #' Calculate the mean score of the results
 #'
 #' @param result The result object

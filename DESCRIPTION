@@ -1,7 +1,7 @@
 Package: GuessR
 Type: Package
 Title: Simulating Guess Scores on Customizable Tests
-Version: 0.0.0.9009
+Version: 0.0.0.9010
 Authors@R: person("Danie", "Nash", email = "dn3g14@soton.ac.uk", role = c("aut", "cre"))
 Maintainer: Daniel Nash <dn3g14@soton.ac.uk>
 Description: The package allows users to create a custom test, being able to

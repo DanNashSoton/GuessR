@@ -4,6 +4,11 @@ variance <- function (x, ...) {
 }
 
 
+modal <- function (x, ...) {
+  UseMethod("modal", x)
+}
+
+
 #' Calculate the mean score of the results
 #'
 #' @param result The result object
@@ -42,9 +47,9 @@ median.result <- function(result){
 #' @param result The result object
 #' @return The mode score
 #' @examples
-#' mode.result(result1)
+#' modal.result(result1)
 #' @export
-mode.result <- function(result){
+modal.result <- function(result){
   coltotal <- c()
   ts <- ncol(result$Score)
   qs <- nrow(result$Score)

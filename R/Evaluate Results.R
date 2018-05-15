@@ -89,9 +89,9 @@ table.result <-  function(result){
 #' @param result The result object
 #' @return The variance of the scores
 #' @examples
-#' var.result(result1)
+#' variance.result(result1)
 #' @export
-var.result <- function(result){
+variance.result <- function(result){
   coltotal <- c()
   ts <- ncol(result$Score)
   qs <- nrow(result$Score)

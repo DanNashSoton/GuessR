@@ -1,9 +1,9 @@
-
+#' @export
 variance <- function (x, ...) {
   UseMethod("variance", x)
 }
 
-
+#' @export
 modal <- function (x, ...) {
   UseMethod("modal", x)
 }

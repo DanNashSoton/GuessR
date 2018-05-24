@@ -11,7 +11,7 @@ sample_test(test, trials, know = 0)
 
 \item{trials}{The desired number of iterations, i.e. the sample size}
 
-\item{know}{The 'knowledge' of the test taker, i.e. a knowledge of 0.5 indicates that there is 50% chance they will know (meaning provide the correct) answer}
+\item{know}{The 'knowledge' of the test taker, i.e. a knowledge of 0.5 indicates that there is 50 percent chance they will know (meaning provide the correct) answer}
 }
 \value{
 A result object

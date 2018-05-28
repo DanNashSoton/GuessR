@@ -9,7 +9,7 @@ Description: The package allows users to create a custom test, being able to
     amounts of possible answers and marks available for each question. The user
     is then able to run a number of simulations of a person randomly guessing at
     the test, and produce various summary statistics and graphs from the results.
-Depends: R (>= 3.4.2)
+Depends: R (>= 3.4.1)
 License: CC0
 Encoding: UTF-8
 LazyData: true
